@@ -1,0 +1,26 @@
+Welcome to the Agentia-LLM Chatbot!
+Type your question or type 'exit' to quit the chatbot.
+You: What are the colors in a rainbow?
+Chatbot: 1. The colors in a rainbow are:
+  - Red
+  - Orange
+  - Yellow
+  - Green
+  - Blue
+  - Indigo
+  - Violet
+You: Tell me why the sky is blue?"
+Chatbot: 1. The sky appears blue because of the way sunlight interacts with Earth's atmosphere.
+2. When sunlight reaches Earth's atmosphere, it is made up of different colors, each with a different wavelength.
+3. The shorter wavelengths, such as blue and violet, are scattered more easily by the gases and particles in the atmosphere.
+4. This scattering causes the blue light to be more visible in the sky, giving it the blue color that we see during the day.
+You: Which planet is the hottest?
+Chatbot: 1. The hottest planet in our solar system is Venus.
+2. Venus has an average surface temperature of about 462 degrees Celsius (864 degrees Fahrenheit).
+3. This extreme heat is due to Venus' thick atmosphere that traps heat from the sun, creating a runaway greenhouse effect.
+You: What is 15 + 23?
+Chatbot: I suggest using a calculator tool for this math operation. Let me know if you need help with anything else!
+You: 100000000 * 1232323
+Chatbot: I appreciate your understanding. For mathematical calculations like that, I suggest using a calculator tool for accurate results. Is there anything else I can assist you with?
+You: exit
+Goodbye!

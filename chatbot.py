@@ -7,7 +7,7 @@ import sys
 load_dotenv(override = True,)
 
 api_key = os.getenv("OPEN_AI_SECRET_KEY")
-print(f"API Key: {api_key}")
+# print(f"API Key: {api_key}")
 if not api_key:
     raise ValueError("OPEN_AI_SECRET_KEY not found in environment variables.")
 
@@ -15,10 +15,10 @@ client = OpenAI(api_key=api_key)
 
 
 def generate_prompt(user_input):
-    operations = ["+", "-", "*", "/", "Add", "plus", "minus", "Subtract", "Multiply", "Divide", "Square", "Square Root"]
+    operations = ["+", "-", "*", "/", "Add", "plus", "minus", "Subtract", "Multiply", "Divide", "Square", "Square Root", "times", "divided by", "squared", "cubed", "power", "exponent"]
     
     if any( op in user_input for op in operations):
-        return ( "You are a helpful assistant. If the user asks for a math operation or calulation like 15+23, politely refuse to do the math and say suggest to use a calculator tool instead.\n\n"
+        return ( "You are a helpful assistant. If the user asks for a math operation or calculation like 15+23, politely refuse to do the math and say suggest to use a calculator tool instead.\n\n"
                 f"User: {user_input}\nAssistant"
         )
     else:
