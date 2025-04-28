@@ -44,12 +44,12 @@ def chat_bot(input_text):
         instructions="You are a helpful assistant. Always think step-by-step and answer the user's questions as clearly as possible."
                     "Give the answers in a logically and use bullet point or numbered list if possible.\n\n"
                     "If the user asks for a math operation or calculation like 15+23, use the calculator tool to evaluate the expression.\n\n"
-                    "If the user asks multi-step questions, politely refuse and throw an error.\n\n"
+                    # "If the user asks multi-step questions, politely refuse and throw an error.\n\n"
                     f"User: {input_text}\nAssistant"
                     ,
         input=input_text,
     )
-    print(response)
+    # print(response)
     message = parse_llm_response(response)
     return message
 

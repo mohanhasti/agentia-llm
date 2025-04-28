@@ -1,0 +1,23 @@
+Welcome to the Agentia-LLM Chatbot!
+Type your question or type 'exit' to quit the chatbot.
+You: What are the colors in a rainbow?
+Chatbot: - The colors in a rainbow are:
+  1. Red
+  2. Orange
+  3. Yellow
+  4. Green
+  5. Blue
+  6. Indigo
+  7. Violet
+You: What is 12 times 7? 
+Chatbot: The result of the expression '12 * 7' is: 84
+You: Add 45 and 30
+Chatbot: The result of the expression '45 + 30' is: 75
+You: What is the capital of France?
+Chatbot: The capital of France is Paris.
+You: Multiply 9 and 8, and also tell me the capital of Japan.
+Chatbot: The result of the expression '9 * 8' is: 72
+You: Multiply 9 and 8, and also tell me the capital of Japan.
+Chatbot: The result of the expression '9 * 8' is: 72
+You: exit
+Goodbye!
